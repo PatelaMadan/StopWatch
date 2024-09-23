@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+     font-family: 'Times New Roman', Times, serif;
+     background-image: url(stopwatch22.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     color: white;
+}
+
+#display{
+    display: flex;
+    font-size: 6.5rem;
+    text-shadow: 5px,2px,2px hsl(white, whitesmoke,black);
+    padding: 50px,50px;
+    margin-left: 60px;
+    
+}
+#controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 50px;
+    border: 5px solid whitesmoke;
+    border-radius: 50px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px; 
+    margin: 5px;
+   cursor: pointer;
+   color: white;
+   border-radius: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#strtbtn{
+background-color: green;
+
+}
+#strtbtn:hover{
+    background-color: rgb(8, 84, 8);
+}
+#stopbtn{
+    background-color: red;
+}
+#stopbtn:hover{
+    background-color: rgb(173, 4, 4);
+}
+#resetbtn{
+    background-color: orange;
+}
+#resetbtn:hover{
+    background-color: rgb(187, 122, 2);
+}
